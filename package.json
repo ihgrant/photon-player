@@ -1,0 +1,23 @@
+{
+  "name": "electron-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "app": "./node_modules/electron-prebuilt/dist/Electron.app/Contents/MacOS/Electron ./",
+    "dev": "npm run watch-js",
+    "watch-js": "babel -w src --out-dir lib"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "async": "^0.x.x",
+    "babel": "^5.x.x",
+    "electron-prebuilt": "^0.25.1-1",
+    "findit": "^2.x.x",
+    "musicmetadata": "^1.x.x",
+    "react": "^0.13.x",
+    "react-datagrid": "^1.x.x"
+  }
+}
